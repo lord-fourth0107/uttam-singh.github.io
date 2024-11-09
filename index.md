@@ -17,6 +17,7 @@ I am a passionate software engineer/research student who always pursues knowledg
 ## Research Experiences
 
 ## Academics
-
+  MS in Computer Science , New York University , 2024-2026(Tentative)
+  B.Tech in Computer Science , NIT Rourkela , 2016-2020
 ## Contact
 You can reach me at [us2193@nyu.edu](mailto:us2193@nyu.edu).
