@@ -1,23 +1,39 @@
-# Welcome to My GitHub Pages Site!
+# Uttam Singh - Portfolio
 
+## 🖼️ Photo
+![Uttam Singh](https://your-image-url.com/photo.jpg)  
+*(Add your photo URL above)*
 
+## 📧 Contact Information
+- Email: us2193@nyu.edu
+- LinkedIn: [Profile](https://linkedin.com/in/)
+- GitHub: [Profile](https://github.com/)
 
-## About Me
+## 💼 Experience
+### Software Engineer (SDE-2) | GE Healthcare (Oct 2020 - Aug 2024)
+- Developed a real-time streaming architecture with sub-300ms latency.
+- Built U-Net-based tumor detection models for MRI scans.
+- Integrated cloud-native tools, reducing cloud costs by 72%.
 
-I am a passionate software engineer/research student who always pursues knowledge. I have worked for 3 years in GE Healthcare as a Software Engineer, where I have assumed many roles. Currently I am pursuing my master's at NYU in Computer Science. My interests include Artificial Intelligence, Machine Learning, Natural Language Processing, Near Real-Time Data Streaming, Data Platform development, Ops, Optimization and anything that can involve graphs(both mathematical and computer graphs), equations or patterns 
+## 🎓 Education
+- **MS in Computer Science**, New York University (4.0/4.0) *(2024 - 2026)*
+- **B.Tech in CSE**, NIT Rourkela (9.13/10) *(2016 - 2020)*
 
-- **Language:** Java, Python, C++ 
-- **Frameworks:** Quarkus, Springboot, Flask, Pytorch
-- 
-## Projects
+## 🛠️ Projects
+- **GenAI for ROS2:** RAG system with Qdrant and LLM.
+- **Transformer-Based Sentiment Detection:** Multimodal model for sentiment analysis.
+- **EEG-based Emotion Classification:** Deep learning model using EEG signals.
 
+## 🏆 Achievements
+- 1st Runner-up, GE Healthcare Annual Tech Awards.
+- Winner, GE’s Global Innovate Hackathon.
+- Published 3 research papers in journals.
 
-## Experiences
+---
+### 🚀 Hosting on GitHub:
+1. Create a GitHub repository.
+2. Place this `README.md` file in the repository.
+3. Enable GitHub Pages from the repository settings.
+4. Visit your portfolio at `https://yourusername.github.io/portfolio/`.
 
-## Research Experiences
-
-## Academics
-  MS in Computer Science , New York University , 2024-2026(Tentative)
-  B.Tech in Computer Science , NIT Rourkela , 2016-2020
-## Contact
-You can reach me at [us2193@nyu.edu](mailto:us2193@nyu.edu).
+Would you like assistance with customizing styles or adding sections? 😊
