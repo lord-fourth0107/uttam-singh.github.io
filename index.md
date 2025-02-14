@@ -1,20 +1,21 @@
 # Uttam Singh 
 
-<div style="display: flex; align-items: flex-start;">
+# Uttam Singh - Portfolio
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <!-- About Me Section -->
-  <div style="flex: 1;">
-     🧑‍💼 About Me:
-
-    Hi, I'm Uttam Singh, a passionate Computer Science graduate student at NYU with 4 years of experience at GE Healthcare. I specialize in distributed systems, machine learning models, and cloud-native architectures.
+  <div style="flex: 2;">
+    ## 🧑‍💼 About Me
+    Hi, I'm Uttam Singh, a Computer Science graduate student at NYU with 4 years of experience at GE Healthcare. I specialize in distributed systems, machine learning, and cloud-native architectures.
   </div>
-
-  <!-- Photo Section -->
-  <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin-left: 20px;">
-    ((SAVE_20201206_191046-1.jpg))
+ <div style="flex: 1; text-align: right; width: 150px; height: 150px;">
+     ![Uttam Singh](![alt text](SAVE_20201206_191046-1.jpg))
   </div>
+  <!-- Photo Section (Rounded and Right-Aligned) -->
+  
 </div>
-![alt text]
-*(Add your photo URL above)*
+
+
 
 ## 📧 Contact Information
 - Email: us2193@nyu.edu
