@@ -1,13 +1,26 @@
-# Uttam Singh - Portfolio
+# Uttam Singh 
 
-## 🖼️ Photo
-![Uttam Singh](https://your-image-url.com/photo.jpg)  
+<div style="display: flex; align-items: flex-start;">
+  <!-- About Me Section -->
+  <div style="flex: 1;">
+     🧑‍💼 About Me:
+
+    Hi, I'm Uttam Singh, a passionate Computer Science graduate student at NYU with 4 years of experience at GE Healthcare. I specialize in distributed systems, machine learning models, and cloud-native architectures.
+  </div>
+
+  <!-- Photo Section -->
+  <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin-left: 20px;">
+    ((SAVE_20201206_191046-1.jpg))
+  </div>
+</div>
+![alt text]
 *(Add your photo URL above)*
 
 ## 📧 Contact Information
 - Email: us2193@nyu.edu
-- LinkedIn: [Profile](https://linkedin.com/in/)
-- GitHub: [Profile](https://github.com/)
+- Personal Email : shivamsinghnitr123@gmail.com
+- LinkedIn: [Profile](https://www.linkedin.com/in/uttam-singh-nyu/)
+- GitHub: [Profile](https://github.com/lord-fourth0107/)
 
 ## 💼 Experience
 ### Software Engineer (SDE-2) | GE Healthcare (Oct 2020 - Aug 2024)
@@ -28,12 +41,3 @@
 - 1st Runner-up, GE Healthcare Annual Tech Awards.
 - Winner, GE’s Global Innovate Hackathon.
 - Published 3 research papers in journals.
-
----
-### 🚀 Hosting on GitHub:
-1. Create a GitHub repository.
-2. Place this `README.md` file in the repository.
-3. Enable GitHub Pages from the repository settings.
-4. Visit your portfolio at `https://yourusername.github.io/portfolio/`.
-
-Would you like assistance with customizing styles or adding sections? 😊
