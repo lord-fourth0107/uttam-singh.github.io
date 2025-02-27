@@ -1,44 +1,80 @@
-# Uttam Singh 
+---
+layout: default
+---
 
-# Uttam Singh - Portfolio
-
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <!-- About Me Section -->
-  <div style="flex: 2;">
-    ## 🧑‍💼 About Me
-    Hi, I'm Uttam Singh, a Computer Science graduate student at NYU with 4 years of experience at GE Healthcare. I specialize in distributed systems, machine learning, and cloud-native architectures.
-  </div>
- <div style="flex: 1; text-align: right; width: 150px; height: 150px;">
-     ![Uttam Singh](![alt text](SAVE_20201206_191046-1.jpg))
-  </div>
-  <!-- Photo Section (Rounded and Right-Aligned) -->
-  
+<div style="display: flex; align-items: center; margin-bottom: 2rem;">
+    <img src="/assets/profile.jpg" alt="Uttam Singh" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 2rem;">
+    <div>
+        <h1>Uttam Singh</h1>
+        <p>Master's Candidate in Computer Science @ NYU </p>
+        <p>
+            <a href="mailto:us2193@nyu.edu">📧 Email</a> | 
+            <a href="https://www.linkedin.com/in/uttam-singh-nyu/">💼 LinkedIn</a> | 
+            <a href="https://github.com/lord-fourth0107">👨💻 GitHub</a> | 
+            <a href="https://scholar.google.com/citations?user=MxGGafQAAAAJ&hl=en">📚 Google Scholar</a>
+        </p>
+    </div>
 </div>
 
+## 🔍 Professional Summary
+Software Engineer (SDE-2) with 4+ years of experience in building cloud-native systems and AI solutions.  
+**Key Expertise**: Distributed Systems • GenAI Integration • Real-time Streaming • Medical Imaging • Open Source Contribution  
+**Awards**: GEHC EmerGE 23 Runner-Up • 11 Impact Awards • Published Researcher
 
+---
 
-## 📧 Contact Information
-- Email: us2193@nyu.edu
-- Personal Email : shivamsinghnitr123@gmail.com
-- LinkedIn: [Profile](https://www.linkedin.com/in/uttam-singh-nyu/)
-- GitHub: [Profile](https://github.com/lord-fourth0107/)
+## 💻 Technical Experience
 
-## 💼 Experience
-### Software Engineer (SDE-2) | GE Healthcare (Oct 2020 - Aug 2024)
-- Developed a real-time streaming architecture with sub-300ms latency.
-- Built U-Net-based tumor detection models for MRI scans.
-- Integrated cloud-native tools, reducing cloud costs by 72%.
+### 🏥 GE Healthcare | Software Engineer (SDE-2)
+**Oct 2020 - Aug 2024**  
+- Architected cloud-native streaming platform handling 25 Mbps data with <300ms latency  
+- Reduced batch latency by 60% through Kafka-TCP integration template  
+- Led LLM adoption for GenAI integration across enterprise verticals  
+- Developed U-Net ML algorithm for tumor detection (Computer Vision/TensorFlow)  
+- Built Azure IoT microservice for Kafka-to-IoTHub message transformation  
+
+### 🌐 Open Source Contributions
+**Unoplat | Nov 2023 - Sept 2024**  
+- Implemented Docusaurus-based documentation portal  
+- Deployed production website using Vercel  
+
+---
 
 ## 🎓 Education
-- **MS in Computer Science**, New York University (4.0/4.0) *(2024 - 2026)*
-- **B.Tech in CSE**, NIT Rourkela (9.13/10) *(2016 - 2020)*
+**New York University**  
+*M.S. Computer Science* | 2024-2026 | 
 
-## 🛠️ Projects
-- **GenAI for ROS2:** RAG system with Qdrant and LLM.
-- **Transformer-Based Sentiment Detection:** Multimodal model for sentiment analysis.
-- **EEG-based Emotion Classification:** Deep learning model using EEG signals.
+**National Institute of Technology Rourkela**  
+*B.Tech Computer Science* | 2016-2020 | 
 
-## 🏆 Achievements
-- 1st Runner-up, GE Healthcare Annual Tech Awards.
-- Winner, GE’s Global Innovate Hackathon.
-- Published 3 research papers in journals.
+---
+
+## 🚀 Key Projects
+
+### GenAI for ROS2 Robotics
+`LLM` `RAG` `Qdrant` `Docker`  
+- Built real-time RAG system for robotic context-aware QA  
+- Optimized vector search latency by 40% using Qdrant  
+- Implemented web scraping pipeline for dynamic knowledge updates  
+
+### Multimodal Sentiment Detection
+`Transformers` `PyTorch` `MVSA Dataset`  
+- Developed fusion model with 89% accuracy on multimodal sentiment classification  
+- Implemented attention-based feature alignment for text-image pairs  
+
+---
+
+## 🛠️ Technical Arsenal
+**Languages**: Java • Python • C++ • SQL • JavaScript  
+**Cloud**: Azure IoT • AWS • GCP • Kubernetes • Helm  
+**AI/ML**: PyTorch • TensorFlow • Computer Vision • NLP  
+**Systems**: Kafka • Flink • Spark • Docker • Quarkus  
+
+---
+
+## 📜 Publications & Achievements
+- 3 research papers in peer-reviewed journals  
+- First Runner Up: GEHC EmerGE 2023 (Health-tech Innovation)  
+- Patent-pending: Real-time Medical Data Streaming Architecture  
+
+---
