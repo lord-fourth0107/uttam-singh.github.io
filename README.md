@@ -1,8 +1,4 @@
-# Uttam Singh - Portfolio
-
-## 🖼️ Photo
-![Uttam Singh](https://your-image-url.com/photo.jpg)  
-*(Add your photo URL above)*
+# Uttam Singh
 
 ## 📧 Contact Information
 - Email: us2193@nyu.edu
