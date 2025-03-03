@@ -6,7 +6,7 @@ layout: default
 <button id="theme-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">🌓</button>
 
 <div class="header-container">
-    <img src="/assets/profile.jpg" alt="Uttam Singh" class="profile-img">
+    <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Uttam Singh" class="profile-img">
     <div class="header-text">
         <h1>Uttam Singh</h1>
         <p>Master's Candidate in Computer Science @ NYU</p>
@@ -148,7 +148,7 @@ Software Engineer (SDE-2) with 4+ years of experience in building cloud-native s
   <!-- NYU -->
   <div class="education-item">
     <div class="logo-circle">
-      <img src="{{ '/assets/nyu.jpg' | relative_url }}"alt="NYU Logo" class="institution-logo">
+      <img src="{{ '/assets/nyu.jpg' | relative_url }}" alt="NYU Logo" class="institution-logo">
     </div>
     <div class="education-details">
       <h3>New York University</h3>
