@@ -12,9 +12,9 @@ layout: default
         <p>Master's Candidate in Computer Science @ NYU</p>
         <div class="contact-links">
             <a href="mailto:us2193@nyu.edu">📧 Email</a>
-            <a href="[LINKEDIN_URL]">💼 LinkedIn</a>
-            <a href="[GITHUB_URL]">👨💻 GitHub</a>
-            <a href="[SCHOLAR_URL]">📚 Google Scholar</a>
+            <a href="https://www.linkedin.com/in/uttam-singh-nyu/">💼 LinkedIn</a>
+            <a href="https://github.com/lord-fourth0107">👨💻 GitHub</a>
+            <a href="https://scholar.google.com/citations?user=MxGGafQAAAAJ&hl=en">📚 Google Scholar</a>
         </div>
     </div>
 </div>
