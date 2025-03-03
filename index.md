@@ -1,43 +1,114 @@
 ---
 layout: default
-title: Uttam Singh - Portfolio # Add this to control page title
 ---
 
+<!-- Theme Toggle -->
+<button id="theme-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000;">🌓</button>
+
 <div class="header-container">
-    <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Uttam Singh" class="profile-img">
+    <img src="/assets/profile.jpg" alt="Uttam Singh" class="profile-img">
     <div class="header-text">
         <h1>Uttam Singh</h1>
         <p>Master's Candidate in Computer Science @ NYU</p>
         <div class="contact-links">
-            <a href="mailto:us2193@nyu.edu" class="email-link">📧 Email</a>
-            <a href="https://linkedin.com/in/uttam-singh-nyu" target="_blank" class="linkedin-link">💼 LinkedIn</a>
-            <a href="https://github.com/lord-fourth0107" class="github-link">👨💻 GitHub</a>
-            <a href="https://scholar.google.com/citations?user=MxGGafQAAAAJ&hl=en" class="scholar-link">📚 Google Scholar</a>
+            <a href="mailto:us2193@nyu.edu">📧 Email</a>
+            <a href="[LINKEDIN_URL]">💼 LinkedIn</a>
+            <a href="[GITHUB_URL]">👨💻 GitHub</a>
+            <a href="[SCHOLAR_URL]">📚 Google Scholar</a>
         </div>
     </div>
 </div>
 
 <style>
+:root {
+  --bg-color: #ffffff;
+  --text-color: #2d3748;
+  --accent-color: #2E86C1;
+  --card-bg: #f8f9fa;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a202c;
+  --text-color: #e2e8f0;
+  --accent-color: #63b3ed;
+  --card-bg: #2d3748;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease;
+}
+
 .header-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  gap: 2rem;
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
 }
 
 .contact-links a {
-    margin-right: 1.2rem;
-    text-decoration: none;
-    color: #2E86C1;
+  margin-right: 1.2rem;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/* Compact Education Section */
+.education-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--card-bg);
+  border-radius: 8px;
+}
+
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+}
+
+/* Reduced Section Spacing */
+section {
+  margin: 1.5rem 0;
+}
+
+#theme-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-color);
 }
 </style>
+
+<script>
+const toggle = document.getElementById('theme-toggle');
+const storedTheme = localStorage.getItem('theme');
+
+const setTheme = (theme) => {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
+};
+
+toggle.addEventListener('click', () => {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+});
+
+// Initialize theme
+setTheme(storedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+</script>
 ---
 ## 👨About Me
 
@@ -77,7 +148,7 @@ Software Engineer (SDE-2) with 4+ years of experience in building cloud-native s
   <!-- NYU -->
   <div class="education-item">
     <div class="logo-circle">
-      <img src="/assets/nyu.jpg" alt="NYU Logo" class="institution-logo">
+      <img src="{{ '/assets/nyu.jpg' | relative_url }}"alt="NYU Logo" class="institution-logo">
     </div>
     <div class="education-details">
       <h3>New York University</h3>
@@ -88,7 +159,7 @@ Software Engineer (SDE-2) with 4+ years of experience in building cloud-native s
   <!-- NIT Rourkela -->
   <div class="education-item">
     <div class="logo-circle">
-      <img src="/assets/nitrkl.jpeg" alt="NIT Rourkela Logo" class="institution-logo">
+      <img src="{{ '/assets/nitrkl.jpeg' | relative_url }}" alt="NIT Rourkela Logo" class="institution-logo">
     </div>
     <div class="education-details">
       <h3>National Institute of Technology Rourkela</h3>
