@@ -118,7 +118,7 @@ Hi ! I'm Uttam Singh, a Master's candidate in Computer Science at New York Unive
 
 ## 🔍 Professional Summary
 Software Engineer (SDE-2) with 4+ years of experience in building cloud-native systems and AI solutions.  
-**Key Expertise**: Distributed Systems • GenAI Integration • Real-time Streaming • Medical Imaging • Open Source Contribution  
+**Key Expertise**: AI/ML Researcher • Distributed Systems • GenAI Integration • Real-time Streaming • Medical Imaging • Open Source Contribution  
 **Awards**: GEHC EmerGE 23 Runner-Up • 11 Impact Awards • Published Researcher
 
 ---
