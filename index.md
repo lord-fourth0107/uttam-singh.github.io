@@ -128,6 +128,7 @@ Software Engineer (SDE-2) with 4+ years of experience in building cloud-native s
 
 ### 🏥 GE Healthcare | Software Engineer (SDE-2)
 **Oct 2020 - Aug 2024**  
+- Created the Streaming verticle for Distributed Data Platform
 - Architected cloud-native streaming platform handling 25 Mbps data with <300ms latency  
 - Reduced batch latency by 60% through Kafka-TCP integration template  
 - Led LLM adoption for GenAI integration across enterprise verticals  
