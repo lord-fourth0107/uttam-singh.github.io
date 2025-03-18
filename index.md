@@ -207,6 +207,10 @@ Software Engineer (SDE-2) with 4+ years of experience in building cloud-native s
 ---
 
 ## 🚀 Key Projects
+### Clusterless Neural Activity Decoding (NYU)
+`Python`.`Pytorch`,`Representation learning`
+- Decoding neural activity without spike sorting the data
+- Task based representation learning/ latent space representation of neural signals for effective decoding 
 
 ### Distributed Data Platform (GE Healthcare)
 `Java`, `Kafka`, `AWS`, `MSK`,`Helm`,`Quarkus`,`Strmzi`,`Grafana`,`Prometheus`,`Tilt`,`Datadog`,`OpenTelemetry`
